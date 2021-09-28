@@ -11,7 +11,7 @@ import edu.temple.recyclerview.model.DogPictures
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initView()
-    } //
+    }
 
     private fun initView(){
         findViewById<RecyclerView>(R.id.recyclerView).layoutManager = GridLayoutManager(this, 2)
